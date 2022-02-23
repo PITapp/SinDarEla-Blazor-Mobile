@@ -1,0 +1,57 @@
+{
+  "cssFiles": [],
+  "dataSources": [
+    "dbSinDarEla"
+  ],
+  "generator": "@radzen/blazor-server",
+  "https": true,
+  "ignore": [
+    ""
+  ],
+  "javaScriptFiles": [],
+  "layouts": [
+    "Login",
+    "Main"
+  ],
+  "logo": "",
+  "name": "SinDarElaMobile",
+  "namespaces": [],
+  "navigation": [],
+  "pages": [
+    "Application Users",
+    "Login",
+    "Application Roles",
+    "Register Application User",
+    "Add Application Role",
+    "Add Application User",
+    "Edit Application User",
+    "Profile",
+    "Unauthorized"
+  ],
+  "port": 8000,
+  "pwa": true,
+  "security": {
+    "autoGeneratePages": true,
+    "dataSource": "dbSinDarEla",
+    "duration": 5,
+    "emailConfirmation": false,
+    "layout": "Main",
+    "loginLayout": "Login",
+    "loginPage": "Login",
+    "provider": "default",
+    "sessionRefresh": false,
+    "smtpFrom": "",
+    "smtpPassword": "",
+    "smtpSSL": false,
+    "smtpServer": "",
+    "smtpUser": ""
+  },
+  "serverLang": "cs",
+  "serverPort": 5000,
+  "serverProject": true,
+  "serverVersion": "6",
+  "startPage": null,
+  "theme": "standard",
+  "title": "SinDarElaMobile",
+  "wasm": true
+}
